@@ -2,11 +2,11 @@ package entities;
 
 import java.util.List;
 
-public class Video extends Lesson{
-	
+public class Video extends Lesson {
+
 	String url;
 	int seconds;
-	
+
 	public Video() {
 		super();
 	}
@@ -21,22 +21,13 @@ public class Video extends Lesson{
 		return url;
 	}
 
-	
-
 	public int getSeconds() {
 		return seconds;
 	}
 
-	
 	@Override
 	public int duration() {
 		return seconds;
 	}
-	
-	
-	
-	
-	
-	
 
 }

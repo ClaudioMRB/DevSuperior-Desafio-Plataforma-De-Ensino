@@ -54,16 +54,15 @@ public class Program {
 		Lesson les1 = new Video();
 		Task task = (Task) les;
 		Video vid = (Video) les1;
-		
+
 		int sum = 0;
 		for (int i = 0; i < n; i++) {
 
 			sum += lesson.get(i).duration();
 
-			
 		}
 		System.out.print("DURAÇÃO TOTAL DO CURSO = " + sum + " segundos");
-		
+
 		scan.close();
 
 	}
